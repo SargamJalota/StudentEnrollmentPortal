@@ -1,9 +1,1194 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.sargam.studentportal.HomeActivity">
+    tools:context="com.example.sargam.studentportal.HomeActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:text="Time Table"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"/>
 
-</android.support.constraint.ConstraintLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+        
+        
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Time "
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Mon"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Tue"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Wed"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Thur"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Fri"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Sat"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                
+            </LinearLayout>
+            
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="8 am"
+                    android:textSize="18sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Mon"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Tue"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Wed"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Thur"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Fri"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Sat"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+
+            </LinearLayout>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="9 am"
+                    android:textSize="18sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Mon"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Tue"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Wed"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Thur"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Fri"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Sat"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+
+            </LinearLayout>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="10 am"
+                    android:textSize="18sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Mon"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Tue"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Wed"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Thur"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Fri"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Sat"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+
+            </LinearLayout>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="11am"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Mon"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Tue"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Wed"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Thur"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Fri"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Sat"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+
+            </LinearLayout>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="12pm"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Mon"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Tue"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Wed"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Thur"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Fri"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Sat"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+
+            </LinearLayout>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="1pm"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Mon"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Tue"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Wed"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Thur"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Fri"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Sat"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+
+            </LinearLayout>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="2pm"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Mon"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Tue"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Wed"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Thur"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Fri"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Sat"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="3pm"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Mon"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Tue"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Wed"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Thur"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Fri"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Sat"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+
+            </LinearLayout>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="4pm"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Mon"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Tue"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Wed"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Thur"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Fri"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Sat"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+
+            </LinearLayout>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="5pm"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    
+                    />
+
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Mon"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Tue"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Wed"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Thur"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Fri"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Sat"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+android:gravity="center"
+                    
+                    />
+
+            </LinearLayout>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="6pm"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:gravity="center"
+
+                    />
+
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Mon"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:gravity="center"
+
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Tue"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:gravity="center"
+
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Wed"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:gravity="center"
+
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Thur"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:gravity="center"
+
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Fri"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:gravity="center"
+
+                    />
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Sat"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
